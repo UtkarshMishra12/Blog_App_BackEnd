@@ -23,6 +23,3 @@ app.get("/", (req,res) => {
     res.send(`<h1>This is my homePage baby</h1>`)
 })
 
-app.get("/dummPage", (req,res)=>{
-    res.send(`<h1>This is my dummy Page</h1>`);
-})
